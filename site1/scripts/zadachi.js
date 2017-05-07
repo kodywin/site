@@ -1,7 +1,9 @@
 function zadacha1()
 {
     var element = document.getElementById('zadacha1');
+    var container = document.getElementById('cont');
     element.innerHTML = '<img src= "image/f01.jpg">';
+    container.innerHTML = '<img src= "image/z01.jpg">'
 }
 function zadacha2()
 {
@@ -52,5 +54,6 @@ function zadacha11()
     var element = document.getElementById('zadacha11');
     element.innerHTML = '<img src= "image/f11.jpg">';
 }
+
 
 
