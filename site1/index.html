@@ -20,12 +20,12 @@
 
     <div class="sidebar">
         <div class="sidebar1">
-           <h3>Динамика</h3>
+           <h3>Кинематика</h3>
             <div class="kinematika">
                 <ol>
-                    <li><a href="#" id="zadacha1" onclick="zadacha1()">Второй закон Ньютона для нескольких сил, действующих вдоль одной прямой</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
+                    <li><p id="zadacha1" onclick="zadacha1()">Второй закон Ньютона для нескольких сил, действующих вдоль одной прямой</p></li>
+                    <li><p id="zadacha2" onclick="zadacha2()">2</p></li>
+                    <li><p id="zadacha3" onclick="zadacha3()">3</p></li>
                 </ol>
             </div>
         </div>
@@ -107,7 +107,9 @@ setInterval(function() {
     <script>
         function zadacha1(){
             var element = document.getElementById('zadacha1');
-            element.innerHTML = "F=m*a";
+            element.innerHTML = "<img src=f1.jpg>";
+            var element = document.getElementById('zadacha2');
+            element.innerHTML = "";
         }
     </script>
 </body>

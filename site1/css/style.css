@@ -8,6 +8,10 @@ body{
     background-size: cover;
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+h3{
+    font-size: 28px;
+    font-family: Monaco, Courier, monospace;
+}
 .header{
     height: 50px;
     width: 100%;
