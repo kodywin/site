@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Только физика, только хардкор</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/buttons.css">
     <script src="scripts/granim.min.js"></script>
@@ -14,6 +14,7 @@
     <canvas id="logo-canvas"></canvas>
     <a href="index.html" class="logo-mask">Granim.js</a>
 </div>
+      <h1 align="center">Закинул?</h1>
        <div class="header">
         
     </div>
@@ -78,6 +79,18 @@
     };
 </script>
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
+<!-- h1 color / -->
+<script>
+    var heading = document.querySelector('h1');
+setInterval(function() {
+  var hue = 'rgb(' + (Math.floor(Math.random() * 256)) +
+    ',' +
+    (Math.floor(Math.random() * 256)) +
+    ',' +
+    (Math.floor(Math.random() * 256)) + ')';
 
+  heading.style.color = hue;
+}, 1000);
+    </script>
 </body>
 </html>
