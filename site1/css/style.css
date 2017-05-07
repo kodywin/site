@@ -38,7 +38,7 @@ body{
 .bloc-logo .logo-mask {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 5;
     background-size: 130px;
     background-image: url("../image/logo-mask.png");
     text-indent: -9999px;
