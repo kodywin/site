@@ -15,92 +15,23 @@
     <canvas id="logo-canvas"></canvas>
     <a href="index.html" class="logo-mask">Granim.js</a>
 </div>
-
-      <h1 align="center">Закинул?</h1>
-       <div class="header">
-        
-
     <div class="header">
-        <div class="button1">
-            <span class="button-dropdown" data-buttons="dropdown">
-    <button class="button button-rounded">
-      Select Me <i class="fa fa-caret-down"></i>
-    </button>
- 
-    <ul class="button-dropdown-list">
-      <li><a href="http://unicorn-ui.com/">Option Link 1</a></li>
-      <li><a href="http://unicorn-ui.com/">Option Link 2</a></li>
-      <li class="button-dropdown-divider">
-        <a href="#">Option Link 3</a>
-      </li>
-    </ul>
-  </span>
- 
-  <span class="button-dropdown button-dropdown-primary" data-buttons="dropdown">
-    <button class="button button-primary button-large">
-      <i class="fa fa-bars"></i> Select Me
-    </button>
- 
-    <ul class="button-dropdown-list is-below">
-      <li><a href="http://unicorn-ui.com/"><i class="fa fa-heart-o"></i> Option Link 1</a></li>
-      <li><a href="http://unicorn-ui.com/">Option Link 2</a></li>
-      <li class="button-dropdown-divider">
-        <a href="#">Option Link 3</a>
-      </li>
-    </ul>
-  </span>
- 
- 
-  <span class="button-dropdown button-dropdown-action" data-buttons="dropdown">
-    <button class="button button-action">
-      Select Me <i class="fa fa-caret-up"></i>
-    </button>
- 
-    <ul class="button-dropdown-list is-above">
-      <li><a href="http://unicorn-ui.com/">Option Link 1</a></li>
-      <li><a href="http://unicorn-ui.com/">Option Link 2</a></li>
-      <li class="button-dropdown-divider">
-        <a href="#">Option Link 3</a>
-      </li>
-    </ul>
-  </span>
- 
-  <span class="button-dropdown button-dropdown-plain" data-buttons="dropdown">
-    <button class="button button-caution button-pill">
-      Select Me <i class="fa fa-caret-down"></i>
-    </button>
- 
-    <ul class="button-dropdown-list">
-      <li><a href="http://unicorn-ui.com/">Option Link 1</a></li>
-      <li class="button-dropdown-divider">
-        <a href="http://unicorn-ui.com/">Option Link 2</a>
-      </li>
-      <li>
-        <a href="#">Option Link 3</a>
-      </li>
-    </ul>
-  </span>
- 
-  <span class="button-dropdown button-dropdown-inverse" data-buttons="dropdown">
-    <a href="#" class="button button-inverse">
-        <i class="fa fa-envelope"></i> Select Me <i class="fa fa-caret-down"></i>
-    </a>
- 
-    <ul class="button-dropdown-list is-below">
-      <li><a href="http://unicorn-ui.com/">Option Link 1</a></li>
-      <li class="button-dropdown-divider">
-        <a href="http://unicorn-ui.com/">Option Link 2</a>
-      </li>
-      <li>
-        <a href="#">Option Link 3</a>
-      </li>
-    </ul>
-  </span>
         </div>      
 
-    </div>
     <div class="sidebar">
-        
+        <div class="sidebar1">
+           <h3>Кинематика</h3>
+            <div class="kinematika">
+                <ol>
+                    <li><a href="#" id="zadacha1" onclick="zadacha1()">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="sidebar2">
+            
+        </div>    
     </div>
     <!-- HelloPreload http://hello-site.ru/preloader/ -->
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
@@ -162,7 +93,7 @@
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
 <!-- h1 color / -->
 <script>
-    var heading = document.querySelector('h1');
+    var heading = document.querySelector('h3');
 setInterval(function() {
   var hue = 'rgb(' + (Math.floor(Math.random() * 256)) +
     ',' +
@@ -172,6 +103,12 @@ setInterval(function() {
 
   heading.style.color = hue;
 }, 1000);
+    </script>
+    <script>
+        function zadacha1(){
+            var element = document.getElementById('zadacha1');
+            element.innerHTML = "goggogogo";
+        }
     </script>
 </body>
 </html>
