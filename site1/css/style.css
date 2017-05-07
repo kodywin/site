@@ -6,6 +6,7 @@ body{
     background-image: url(../image/file.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 .header{
     height: 50px;
@@ -18,4 +19,27 @@ body{
     background-color: rgba(28, 28, 28, 0.4);
     margin-top: 10px;
     margin-left: 15%;
+}
+.bloc-logo {
+    position: relative;
+    width: 130px;
+    height: 49px;
+    float: left;
+}
+
+.bloc-logo canvas,
+.bloc-logo .logo-mask {
+    display: block;
+    width: 130px;
+    height: 49px;
+    visibility: visible;
+}
+
+.bloc-logo .logo-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 130px;
+    background-image: url("../image/logo-mask.png");
+    text-indent: -9999px;
 }
