@@ -19,7 +19,7 @@ body{
     background-color: rgba(28, 28, 28, 0.4);
     margin-top: 0px;
     margin-left: 15%;
-    position: fixed;
+    position: absolute;
     
 }
 .sidebar2{
