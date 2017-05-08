@@ -102,5 +102,8 @@ function ob()
     var element = document.getElementById('zadacha1');
     element.innerHTML = 'Второй закон Ньютона для нескольких сил, действующих вдоль одной прямой';
 }
-
-
+function t1()
+{
+    var element = document.getElementById('t1');
+    container.innerHTML = '<img src= "image/im2.png">';
+}
