@@ -105,5 +105,5 @@ function ob()
 function t1()
 {
     var container = document.getElementById('cont');
-    container.innerHTML = '<img src= "image/im2.png">';
+    container.innerHTML = '<img class="z01" src= "image/im2.png">';
 }
