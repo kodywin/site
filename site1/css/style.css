@@ -9,7 +9,7 @@ body{
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 h3{
-    font-size: 28px;
+    font-size: 24px;
     font-family: Monaco, Courier, monospace;
 }
 .header{
@@ -68,8 +68,38 @@ p{
     color: coral;
 }
 
+.f01{
+    width: 80%;
+}
+.f02{
+    width: 80%;
+}
+.f03{
+    width: 80%;
+}
+.f04{
+    width: 80%;
+}
 .f05{
-    width: 280px;
+    width: 80%;
+}
+.f06{
+    width: 80%;
+}
+.f07{
+    width: 90%;
+}
+.f08{
+    width: 80%;
+}
+.f09{
+    width: 80%;
+}
+.f10{
+    width: 80%;
+}
+.f11{
+    width: 80%;
 }
 .z01{
     width: 520px;

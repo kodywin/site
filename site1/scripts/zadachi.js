@@ -2,77 +2,77 @@ function zadacha1()
 {
     var element = document.getElementById('zadacha1');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f01.jpg">';
+    element.innerHTML = '<img class ="f01" src= "image/f01.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z01.jpg">'
 }
 function zadacha2()
 {
     var element = document.getElementById('zadacha2');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f02.jpg">';
+    element.innerHTML = '<img class ="f02" src= "image/f02.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z02.jpg">'
 }
 function zadacha3()
 {
     var element = document.getElementById('zadacha3');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f03.jpg">';
+    element.innerHTML = '<img class ="f03" src= "image/f03.jpg">';
     container.innerHTML = '<img class="z03" src= "image/z03.jpg">'
 }
 function zadacha4()
 {
     var element = document.getElementById('zadacha4');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f04.jpg">';
+    element.innerHTML = '<img class ="f04" src= "image/f04.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z04.jpg">'
 }
 function zadacha5()
 {
     var element = document.getElementById('zadacha5');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class="f05" src= "image/f05.jpg">';
+    element.innerHTML = '<img class ="f05" class="f05" src= "image/f05.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z05.jpg">'
 }
 function zadacha6()
 {
     var element = document.getElementById('zadacha6');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class="f05" src= "image/f06.jpg">';
+    element.innerHTML = '<img class ="f06" class="f05" src= "image/f06.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z06.jpg">'
 }
 function zadacha7()
 {
     var element = document.getElementById('zadacha7');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class="f05" src= "image/f07.jpg">';
+    element.innerHTML = '<img class ="f07" src= "image/f07.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z07.jpg">'
 }
 function zadacha8()
 {
     var element = document.getElementById('zadacha8');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f08.jpg">';
+    element.innerHTML = '<img class ="f08" src= "image/f08.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z08.jpg">'
 }
 function zadacha9()
 {
     var element = document.getElementById('zadacha9');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f09.jpg">';
+    element.innerHTML = '<img class ="f09" src= "image/f09.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z09.jpg">'
 }
 function zadacha10()
 {
     var element = document.getElementById('zadacha10');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img src= "image/f10.jpg">';
+    element.innerHTML = '<img class ="f10" src= "image/f10.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z10.jpg">'
 }
 function zadacha11()
 {
     var element = document.getElementById('zadacha11');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class="f05" src= "image/f11.jpg">';
+    element.innerHTML = '<img class ="f11" class="f05" src= "image/f11.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z11.jpg">'
 }
 
