@@ -5,7 +5,7 @@
 body{
     background-image: url(../image/file.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 h3{
@@ -80,16 +80,16 @@ li{
     width: 80%;
 }
 .f04{
-    width: 80%;
+    width: 50%;
 }
 .f05{
-    width: 80%;
+    width: 100%;
 }
 .f06{
-    width: 80%;
+    width: 100%;
 }
 .f07{
-    width: 90%;
+    width: 100%;
 }
 .f08{
     width: 80%;
@@ -104,12 +104,9 @@ li{
     width: 80%;
 }
 .z01{
-    width: 520px;
-    padding-top: 10px;
-}
-.z03{
-    height: 710px;
-    padding-top: 10px;
+    width: 74%;
+    padding-top: 2%;
+
 }
 .container{
     text-align: center;
