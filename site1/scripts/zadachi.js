@@ -17,7 +17,7 @@ function zadacha3()
     var element = document.getElementById('zadacha3');
     var container = document.getElementById('cont');
     element.innerHTML = '<img class ="f03" src= "image/f03.jpg">';
-    container.innerHTML = '<img class="z03" src= "image/z03.jpg">';
+    container.innerHTML = '<img class="z01" src= "image/z03.jpg">';
 }
 function zadacha4()
 {
@@ -30,14 +30,14 @@ function zadacha5()
 {
     var element = document.getElementById('zadacha5');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class ="f05" class="f05" src= "image/f05.jpg">';
+    element.innerHTML = '<img class ="f05" src= "image/f05.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z05.jpg">'
 }
 function zadacha6()
 {
     var element = document.getElementById('zadacha6');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class ="f06" class="f05" src= "image/f06.jpg">';
+    element.innerHTML = '<img class ="f06" src= "image/f06.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z06.jpg">';
 }
 function zadacha7()
@@ -72,7 +72,7 @@ function zadacha11()
 {
     var element = document.getElementById('zadacha11');
     var container = document.getElementById('cont');
-    element.innerHTML = '<img class ="f11" class="f05" src= "image/f11.jpg">';
+    element.innerHTML = '<img class ="f11"  src= "image/f11.jpg">';
     container.innerHTML = '<img class="z01" src= "image/z11.jpg">';
 }
 function ob()
@@ -104,6 +104,6 @@ function ob()
 }
 function t1()
 {
-    var element = document.getElementById('t1');
+    var container = document.getElementById('cont');
     container.innerHTML = '<img src= "image/im2.png">';
 }
