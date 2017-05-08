@@ -20,7 +20,7 @@
 
     <div class="sidebar">
         <div class="sidebar1">
-           <h3 id="ob" onclick="ob()">Динамика</h3>
+           <h3 class="tex" id="ob" onclick="ob()">Динамика</h3>
             <div class="kinematika">
                 <ol>
                     <li><p id="zadacha1" onclick="zadacha1()">Второй закон Ньютона для нескольких сил, действующих вдоль одной прямой</p></li>
@@ -35,7 +35,7 @@
                     <li><p id="zadacha10" onclick="zadacha10()">Равновесие невращающихся тел</p></li>
                     <li><p id="zadacha11" onclick="zadacha11()">Центр масс. Центр тяжести</p></li>
                 </ol>
-                    <h3>Теория</h3>
+                    <h3 class="text">Теория</h3>
                 <ul>
                     <li><p id="t1" onclick="t1()">Законы Ньютона</p>  
                     </li>
@@ -107,8 +107,20 @@
 </script>
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
 <!-- h3 color / -->
-<script>
-    var heading = document.querySelector('h3');
+    <script>
+    var heading = document.querySelector('.tex');
+setInterval(function() {
+  var hue = 'rgb(' + (Math.floor(Math.random() * 256)) +
+    ',' +
+    (Math.floor(Math.random() * 256)) +
+    ',' +
+    (Math.floor(Math.random() * 256)) + ')';
+
+  heading.style.color = hue;
+}, 1000);
+    </script>
+   <script>
+    var heading = document.querySelector('.text');
 setInterval(function() {
   var hue = 'rgb(' + (Math.floor(Math.random() * 256)) +
     ',' +
