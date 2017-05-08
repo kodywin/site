@@ -17,7 +17,7 @@ function zadacha3()
     var element = document.getElementById('zadacha3');
     var container = document.getElementById('cont');
     element.innerHTML = '<img src= "image/f03.jpg">';
-    container.innerHTML = '<img class="z01" src= "image/z03.jpg">'
+    container.innerHTML = '<img class="z03" src= "image/z03.jpg">'
 }
 function zadacha4()
 {
