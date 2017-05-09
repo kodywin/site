@@ -34,7 +34,7 @@
                     <li><p id="zadacha10" onclick="zadacha10()">Равновесие невращающихся тел</p></li>
                     <li><p id="zadacha11" onclick="zadacha11()">Центр масс. Центр тяжести</p></li>
                 </ol>
-                    <h3 class="text">Теория</h3>
+                    <h3 class="teo" id="teo"><font color="silver">Теория<font color="red">!</font></font></h3>
                 <ul>
                     <li><p id="t1" onclick="t1()">Законы Ньютона</p>  
                     </li>
@@ -118,6 +118,16 @@ setInterval(function() {
   heading.style.color = hue;
 }, 1000);
     </script>
+    <script>
+            var h3 = document.getElementById("teo");
+            setInterval(function() {
+                if (h3.style.fontSize != "20px") {
+                    h3.style.fontSize = "20px";
+                } else {
+                    h3.style.fontSize = "40px";
+                }
+            }, 2000);
+        </script>
     <script src="scripts/zadachi.js"></script>
 </body>
 </html>
