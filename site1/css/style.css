@@ -59,6 +59,7 @@ h3{
 }
 h3{
     text-align: center;
+    transition: font-size .5s;
 }
 .kinematika{
     margin-left: 25px;
