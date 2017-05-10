@@ -4,27 +4,9 @@
     <meta charset="UTF-8">
     <title>Только физика, только хардкор</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/buttons.css">
     <script src="https://use.fontawesome.com/0766ac555c.js"></script>
     <script src="scripts/granim.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-
-$(document).ready(function () {
-	$('td a').click(function () {
-		var o=$(this).parent();
-		var url=o.find('img').attr('src');
-		var html='<a href="#" class="clone"><img src="'+url+'" /></a>'
-		o.append(html);
-		o=o.find('.clone');
-		o.animate({width:'200%',height:'200%'});
-		o.click(function () {
-			$(this).remove();
-		});
-	});
-});
-</script>
-
 </head>
 <body background="file.gif">
     <div class="bloc-logo">
@@ -142,7 +124,7 @@ setInterval(function() {
                 } else {
                     h3.style.fontSize = "40px";
                 }
-            }, 2000);
+            }, 5000);
         </script>
     <script src="scripts/zadachi.js"></script>
 </body>
